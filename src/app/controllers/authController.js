@@ -12,6 +12,8 @@ const mailer = require('../../modules/mailer');
 
 const authConfig = require('../../config/auth');
 
+require('dotenv/config');
+
 const router = express.Router();
 
 function generateToken(params = {}) {
